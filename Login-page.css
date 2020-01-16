@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Sunflower:300");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sunflower", sans-serif;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.sub-container {
+  max-width: 830px;
+  width: 100%;
+  height: 470px;
+  margin: 50px auto 0;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.125);
+  border-radius: 30px 30px 30px 30px;
+}
+
+.sub-container .banner-img {
+  width: 220px;
+  height: 100%;
+  
+}
+
+.sub-container .banner-img img {
+  width: 173%;
+  height: 100%;
+  border-radius: 0 30px 30px 0;
+}
+
+.sub-container .login-form {
+  width: 450px;
+  height: 100%;
+  text-align: center;
+  padding: 90px 105px 0;
+  position: relative;
+  
+}
+
+.sub-container .login-form .title {
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.login-form .label {
+  color: #524a4a;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.login-form .input {
+  margin: 5px 0 15px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.btn {
+    
+    width: 240px;
+    background: #33A2EB;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+.login-form .forgot a {
+  color: #33A2EB;
+  font-size: 18px;
+  bottom: 200px;
+  left: 150px;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .sub-container {
+    flex-direction: column;
+    max-width: 500px;
+    height: auto;
+    margin-top: 50px;
+  }
+  .sub-container .banner-img {
+    width: 100%;
+    height: 220px;
+    display: none;
+    
+  }
+
+  block-marcus-loke-WQJvWU_HZFo-unsplash.jpg{
+    display: none;
+  }
+  .sub-container .login-form {
+    width: 100%;
+    padding: 20px 35px 0;
+  }
+  .sub-container .login-form .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .login-form .input {
+    margin: 20px 0 0 0;
+  }
+
+  .login-form .forgot {
+    margin: 20px 0 20px 0;
+  }
+  .btn {
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
