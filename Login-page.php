@@ -19,14 +19,14 @@
           Welcome
       </div>
       <div class="input-fields">
-        <input type="text" class="input" placeholder="Username">
+        <input type="text" class="input" name="mailuid" placeholder="Username">
       </div>
       <div class="input-fields">
-        <input type="text" class="input" placeholder="Password">
+        <input type="text" class="input"name="pwd" placeholder="Password">
       </div>
       <div class="btn">
         Log In
-        <a href="student-loginpage.php">
+        <button type="submit" name="login-submit">Login</button>
       </div>
       <div class="forgot">
         <a href="#">Forgot Password?</a>
