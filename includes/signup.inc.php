@@ -33,8 +33,8 @@
         }
 
         else {
-            $sql = "SELECT StudentName FROM student_signup WHERE StudentName=?";
-            $stmt = mysql_stmt_init($conn);
+            $sql = "SELECT StudentName FROM student_signup WHERE StudentName=? OR StudentEmail=?";
+            $stmt = mysqli_stmt_init($conn);
             if (!mysqli_stmt_preapre($stmt, $sql)) {
               header("Location: ../signup.php?error=sqlerror");
               exit();
