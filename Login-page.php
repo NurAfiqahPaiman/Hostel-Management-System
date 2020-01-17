@@ -9,11 +9,11 @@
 <body>
 
     <h1>Hostel Management System</h1>
-    
+
 <form action="includes/login.inc.php" method="post">
 <div class="container">
   <div class="sub-container">
-    
+
     <div class="login-form">
       <div class="title">
           Welcome
@@ -31,23 +31,23 @@
       <div class="forgot">
         <a href="#">Forgot Password?</a>
       </div>
-      
+
         <a href="signup.php" >Signup</a>
         <form action="includes/logout.inc.php" method="post">
         <button type="submit" name="logout-submit">Logout</buttom>
         </form>
-     
+
     </div>
     <div class="banner-img">
         <picture>
           <source media="(max-width: 400px)" srcset="marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-          <img src="asset/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+          <img src="asset/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
           alt="Photo by Marcus Loke on Unsplash">
         </picture>
       </div>
   </div>
 </div>
-</fom>	
-	
+</fom>
+
 </body>
 </html>
