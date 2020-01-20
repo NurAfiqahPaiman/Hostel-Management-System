@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +12,10 @@
 <body>
 
     <h1>Hostel Management System</h1>
-
+    
 <form action="includes/login.inc.php" method="post">
 <div class="container">
+
   <div class="sub-container">
 
     <div class="login-form">
@@ -19,35 +23,33 @@
           Welcome
       </div>
       <div class="input-fields">
-        <input type="text" class="input" name="mailuid" placeholder="Username">
+        <input type="text" class="input" placeholder="Username">
       </div>
       <div class="input-fields">
-        <input type="text" class="input"name="pwd" placeholder="Password">
+        <input type="password" class="input" placeholder="Password">
       </div>
       <div class="btn">
-        Log In
-        <button type="submit" name="login-submit">Login</button>
+    
+        <a href="student_page.php">Log In</a>
       </div>
       <div class="forgot">
         <a href="#">Forgot Password?</a>
       </div>
-
+      
         <a href="signup.php" >Signup</a>
-        <form action="includes/logout.inc.php" method="post">
-        <button type="submit" name="logout-submit">Logout</buttom>
-        </form>
-
+        
+     
     </div>
     <div class="banner-img">
         <picture>
           <source media="(max-width: 400px)" srcset="marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-          <img src="asset/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+          <img src="asset/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
           alt="Photo by Marcus Loke on Unsplash">
         </picture>
       </div>
   </div>
 </div>
-</fom>
-
+</fom>	
+	
 </body>
 </html>
